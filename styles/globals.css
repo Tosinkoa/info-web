@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ************_________________Home__________________********** */
+.background_color {
+  @apply bg-gray-50 flex h-full w-full justify-center overflow-hidden overflow-y-scroll absolute bottom-0 top-0 py-14;
+}
+
+.circle_one {
+  @apply bg-emerald-200 w-64 h-64 absolute -bottom-6 left-20 rounded-full;
+}
+
+.circle_two {
+  @apply bg-emerald-200 w-6 h-6 absolute -bottom-6 left-4 rounded-full top-96;
+}
+
+.circle_three {
+  @apply bg-emerald-200 w-12 h-12 absolute -bottom-6 left-4 rounded-full top-72;
+}
+
+.circle_four {
+  @apply bg-emerald-200 w-16 h-16 absolute -bottom-6 left-6 rounded-full top-48;
+}
+
+.circle_five {
+  @apply bg-emerald-200 w-20 h-20 absolute -bottom-6 left-10 rounded-full top-20;
+}
+
+.circle_six {
+  @apply bg-emerald-200 w-36 h-36 absolute  right-8 rounded-full top-36;
+}
+
+.style_input {
+  @apply px-3 py-3 rounded-md border focus:outline-none  text-gray-700 border-gray-400 sm:w-10/12 lg:w-3/4 bg-gray-50;
+}
+
+.form_background {
+  @apply bg-gray-50 rounded-lg shadow-xl text-sm p-10 px-6 m-4 border-gray-400 w-full mx-0 my-0 text-center mb-10 z-20;
+}
+
+.form_header {
+  @apply md:text-2xl sm:text-xl font-semibold text-gray-700;
+}
+
+.data_list {
+  @apply rounded-lg h-32 relative left-8 bg-white scroll-smooth z-20  sm:w-10/12 lg:w-3/4 shadow-xl overflow-y-scroll overflow-hidden justify-end;
+}
+
+.first_form_background {
+  @apply grid md:grid-cols-2 sm:grid-cols-1 space-x-10 w-10/12;
+}
+
+.form_description {
+  @apply lg:text-xl text-sm text-gray-700 mt-3;
+}
+
+.form_style {
+  @apply flex flex-col justify-center mt-8;
+}
+
+.drop_down {
+  @apply px-3 py-3 rounded-md border focus:outline-none  text-gray-700 border-gray-400 sm:w-10/12 lg:w-3/4 bg-gray-50 inline-flex justify-between;
+}
+
+.drop_down_value {
+  @apply space-y-3 text-gray-700 text-sm cursor-pointer;
+}
+
+.submit_button {
+  @apply bg-teal-700 sm:w-10/12 lg:w-3/4 py-2 mt-12 font-extrabold rounded-lg text-gray-200;
+}
+
+/* ************_________________Alert Component__________________********** */
+.alert_background {
+  @apply text-gray-700 my-0 py-4 space-y-3 sm:bottom-56 top-52 bg-gray-50 p-4 rounded-lg absolute text-center mx-0  sm:left-10 sm:right-10 md:left-80 md:right-80 cursor-default z-20;
+}
+
+/* ************_________________Contact List__________________********** */
+.contact_data {
+  @apply inline-flex flex-row space-x-2 w-11/12 text-gray-700 text-sm text-center flex-wrap justify-between;
+}
+
+.contact_background {
+  @apply bg-gray-50 rounded-lg shadow-xl text-sm p-10 px-6 m-4  border-gray-400 w-full lg:mx-0  text-center mb-10 z-10 sm:right-10 lg:left-4 sm:relative;
+}
